@@ -16,7 +16,7 @@ class Usbmuxd < Formula
   end
 
   bottle do
-    root_url "https://github.com/fr0l/homebrew-qa/releases/download/usbmuxd-badoo"
+    root_url "https://github.com/fr0l/homebrew-qa/releases/download/badoo"
     cellar :any
     sha256 "09fa606479b1e7b2b98d29f6a84db7442b17cf189ca9203497e3960d21875124" => :mojave # Badoo build HEAD-6539b02_1
   end
