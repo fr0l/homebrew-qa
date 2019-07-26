@@ -8,7 +8,7 @@ class Fbsimctl < Formula
 
   bottle do
     root_url "https://github.com/fr0l/homebrew-qa/releases/download/badoo/"
-    rebuild 1
+    #rebuild 1
     cellar :any_skip_relocation
     sha256 "f2c9db203847c9fc8745f8f6578f83674b5ec37f2710c7f4175fd915f2ae19d1" => :mojave
   end
