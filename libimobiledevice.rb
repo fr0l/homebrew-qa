@@ -2,7 +2,7 @@ class Libimobiledevice < Formula
   desc "Library to communicate with iOS devices natively"
   homepage "https://www.libimobiledevice.org/"
   url "https://github.com/badoo/libimobiledevice/archive/8ce3312.tar.gz"
-  sha256 "26b9341162ce77b6cb3f7385217f495eb21c003178dbb10fe406f67813b7d223"
+  sha256 "daddc2a86a8cfb1b9a3ce552953fcd98d609aff4e6907b43ef634e45aee67eed"
   version "HEAD-8ce3312"
 
   # bottle do
