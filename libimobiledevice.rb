@@ -5,11 +5,11 @@ class Libimobiledevice < Formula
   sha256 "daddc2a86a8cfb1b9a3ce552953fcd98d609aff4e6907b43ef634e45aee67eed"
   version "HEAD-8ce3312"
 
-  # bottle do
-  #   root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
-  #   cellar :any
-  #   sha256 "8e253191b12dda7d771558c102e97f0970b856a98c788ef0accf9168c4230507" => :mojave
-  # end
+  bottle do
+    root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
+    cellar :any
+    sha256 "4353953813e2ee89e8fd917d46d0bfcc83485871e10dbf7ba4ba48ddc4e25a16" => :mojave
+  end
 
   head do
     url "https://github.com/badoo/libimobiledevice.git"
