@@ -7,7 +7,7 @@ class Fbsimctl < Formula
   version "HEAD-99606df"
 
   bottle do
-    root_url "https://github.com/fr0l/homebrew-qa/releases/download/badoo/"
+    root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
     cellar :any_skip_relocation
     sha256 "aa298d00002cde2c108db309a97a16ffb807545d87086417b9c155dc213a875f" => :mojave
     sha256 "aa298d00002cde2c108db309a97a16ffb807545d87086417b9c155dc213a875f" => :high_sierra
