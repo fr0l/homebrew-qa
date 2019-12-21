@@ -9,8 +9,8 @@ class Fbsimctl < Formula
   bottle do
     root_url "https://github.com/badoo/homebrew-qa-bottles/releases/download/v1.0"
     cellar :any_skip_relocation
-    sha256 "61419fd11a632b7a27ce331b1d8529e3a0ab3f8def8814bda52148d35f4919f3" => :catalina
-    sha256 "61419fd11a632b7a27ce331b1d8529e3a0ab3f8def8814bda52148d35f4919f3" => :mojave
+    sha256 "71088a642a7723f567eaefe5c1545148402240798bbbc6cf187e4ef01b81de27" => :catalina
+    sha256 "71088a642a7723f567eaefe5c1545148402240798bbbc6cf187e4ef01b81de27" => :mojave
   end
 
   depends_on "carthage"
